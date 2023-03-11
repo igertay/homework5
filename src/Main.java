@@ -44,6 +44,7 @@ public class Main {
             }
         }
     }
+
     private static void shoppingList(List<String> sales) {
         System.out.println("Список покупок:");
         for (int i = 0; i < sales.size(); i++) {
@@ -51,7 +52,8 @@ public class Main {
             System.out.println(count + ". " + sales.get(i));
         }
     }
-    private static void  findProduct(Scanner scanner, ArrayList<String> sales) {
+
+    private static void findProduct(Scanner scanner, ArrayList<String> sales) {
         System.out.println("Введите текст для поиска: ");
         String product = scanner.next();
         try {
@@ -68,8 +70,5 @@ public class Main {
             }
         }
     }
-
-
-
-            }
+}
 
